@@ -1,4 +1,4 @@
-package CircularQueue
+package main
 
 type MyCircularQueue struct {
 	queue  []int

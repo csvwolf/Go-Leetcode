@@ -1,4 +1,4 @@
-package NumIslands
+package main
 
 func NumIslands(grid [][]byte) int {
 	var count int

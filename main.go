@@ -2,8 +2,6 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/csvwolf/Go-Leetcode/NumIslands"
 )
 
 //[["1","0","1","1","1"],["1","0","1","0","1"],["1","1","1","0","1"]]

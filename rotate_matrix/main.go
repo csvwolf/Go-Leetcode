@@ -1,6 +1,4 @@
-package RotataeMatrix
-
-import "fmt"
+package main
 
 /**
 https://leetcode-cn.com/problems/rotate-matrix-lcci/
@@ -40,7 +38,6 @@ func rotate2(matrix [][]int) {
 			matrix[i][j], matrix[size-i-1][j] = matrix[size-i-1][j], matrix[i][j]
 		}
 	}
-	fmt.Println(matrix)
 
 	// 对角线转
 	for i := 0; i < size; i++ {
